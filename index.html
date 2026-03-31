@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel With Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">TravelWithUs</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="home">
+        <h1>Explore the World</h1>
+        <p>Discover beautiful destinations and make unforgettable memories.</p>
+        <!-- New background image container -->
+        <div class="button-bg-image"></div>
+        <!-- Updated button -->
+        <button class="explore-now" onclick="scrollToSection('destinations')">
+          Explore Now
+        </button>
+      </div>
+      
+  </header>
+
+  <<section id="destinations" class="destinations">
+    <h2>Featured Destinations</h2>
+    <div class="cards">
+      <!-- Maldives -->
+      <div class="card">
+        <img src="images/beach.jpeg" alt="Beach">
+        <h3>Maldives</h3>
+        <p>Relax in pristine beaches and crystal-clear waters.</p>
+      </div>
+      <!-- Switzerland -->
+      <div class="card">
+        <img src="images/mountain.jpeg" alt="Mountain">
+        <h3>Switzerland</h3>
+        <p>Experience stunning mountains and serene landscapes.</p>
+      </div>
+      <!-- Tokyo -->
+      <div class="card">
+        <img src="images/city.jpg" alt="City">
+        <h3>Tokyo</h3>
+        <p>Immerse yourself in vibrant city life and rich culture.</p>
+      </div>
+      <!-- Paris -->
+      <div class="card">
+        <img src="images/paris.avif" alt="Paris">
+        <h3>Paris</h3>
+        <p>Discover romantic boulevards and iconic landmarks.</p>
+      </div>
+      <!-- New York -->
+      <div class="card">
+        <img src="images/newyork.jpg" alt="New York City">
+        <h3>New York</h3>
+        <p>Explore the city that never sleeps with its vibrant energy.</p>
+      </div>
+      <!-- Bali -->
+      <div class="card">
+        <img src="images/bali.webp" alt="Bali">
+        <h3>Bali</h3>
+        <p>Unwind in tropical paradise with lush greenery.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 TravelWithUs. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
